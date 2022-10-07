@@ -89,8 +89,7 @@
 }
 
 .home-background{
-    width: 250%;
-    height: 110%;
-
-    overflow: hidden;
+    width: 100%;
+    height: 103%;
+    
 }
