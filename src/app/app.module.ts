@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { SobreojogoComponent } from './sobreojogo/sobreojogo.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
     HeaderComponent,
     HomeComponent,
     NoticiasComponent,
+    SobreojogoComponent,
   ],
   imports: [
     BrowserModule,
