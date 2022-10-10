@@ -8,6 +8,7 @@ import { HomeComponent } from './feature/components/home/home.component';
 import { NoticiasComponent } from './feature/components/noticias/noticias.component';
 import { LandingpageComponent } from './feature/pages/landingpage/landingpage.component';
 import { SobreojogoComponent } from './feature/components/sobreojogo/sobreojogo.component';
+import { AgentesComponent } from './feature/components/agentes/agentes.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SobreojogoComponent } from './feature/components/sobreojogo/sobreojogo.
     HomeComponent,
     NoticiasComponent,
     LandingpageComponent,
-    SobreojogoComponent
+    SobreojogoComponent,
+    AgentesComponent
   ],
   imports: [
     BrowserModule,
