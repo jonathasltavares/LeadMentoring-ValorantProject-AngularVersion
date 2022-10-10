@@ -13,7 +13,7 @@
     font-family: 'Montserrat';
 }
 .conheca-main{
-    background-image: url(/images/conheça-elementos.png);
+    background-image: url("/assets/images/conheça-elementos.png");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -38,8 +38,8 @@
     margin-bottom: 5.5%;
 }
 .conheca-musicvideo{
-    width: 85%;
-    height: 50%;
+    width: 504px;
+    height: 311px;
     padding-left: 23%;
 }
 
