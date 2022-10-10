@@ -17,7 +17,7 @@ import { SobreojogoComponent } from './feature/components/sobreojogo/sobreojogo.
     HomeComponent,
     NoticiasComponent,
     LandingpageComponent,
-    SobreojogoComponent,
+    SobreojogoComponent
   ],
   imports: [
     BrowserModule,
