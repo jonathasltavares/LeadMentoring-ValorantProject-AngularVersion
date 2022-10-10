@@ -9,6 +9,7 @@ import { NoticiasComponent } from './feature/components/noticias/noticias.compon
 import { LandingpageComponent } from './feature/pages/landingpage/landingpage.component';
 import { SobreojogoComponent } from './feature/components/sobreojogo/sobreojogo.component';
 import { AgentesComponent } from './feature/components/agentes/agentes.component';
+import { FooterComponent } from './feature/components/footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AgentesComponent } from './feature/components/agentes/agentes.component
     NoticiasComponent,
     LandingpageComponent,
     SobreojogoComponent,
-    AgentesComponent
+    AgentesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
