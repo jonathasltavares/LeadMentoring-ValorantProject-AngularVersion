@@ -6,10 +6,10 @@
     </div>
     
     <nav class="header-cabecalho-menu">
-        <a class="header-cabecalho-menu-item" href="#section-app-home">Jogue agora</a>
-        <a class="header-cabecalho-menu-item" href="#section-app-noticias">Notícias</a>
-        <a class="header-cabecalho-menu-item" href="#section-app-sobreojogo">Sobre o jogo</a>
-        <a class="header-cabecalho-menu-item" href="#section-app-agentes">Agentes</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('home')">Jogue agora</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('noticias')" target="_self">Notícias</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('sobreojogo')">Sobre o jogo</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('agentes')">Agentes</a>
     </nav>
     <div class="header-cabecalho-right">
         <div class="header-cabecalho-right-acessibilidadeBar">
