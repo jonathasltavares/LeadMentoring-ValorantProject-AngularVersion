@@ -16,6 +16,8 @@ import { SobreojogoComponent } from './feature/components/sobreojogo/sobreojogo.
     HeaderComponent,
     HomeComponent,
     NoticiasComponent,
+    LandingpageComponent,
+    SobreojogoComponent
   ],
   imports: [
     BrowserModule,
