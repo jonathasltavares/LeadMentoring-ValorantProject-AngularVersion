@@ -10,6 +10,8 @@ import { LandingpageComponent } from './feature/pages/landingpage/landingpage.co
 import { SobreojogoComponent } from './feature/components/sobreojogo/sobreojogo.component';
 import { AgentesComponent } from './feature/components/agentes/agentes.component';
 import { FooterComponent } from './feature/components/footer/footer.component';
+import { LoginComponent } from './feature/pages/login/login.component';
+import { CadastroComponent } from './feature/pages/cadastro/cadastro.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { FooterComponent } from './feature/components/footer/footer.component';
     LandingpageComponent,
     SobreojogoComponent,
     AgentesComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
