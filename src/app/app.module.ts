@@ -12,6 +12,7 @@ import { AgentesComponent } from './feature/components/agentes/agentes.component
 import { FooterComponent } from './feature/components/footer/footer.component';
 import { LoginComponent } from './feature/pages/login/login.component';
 import { CadastroComponent } from './feature/pages/cadastro/cadastro.component';
+import { FormComponent } from './feature/pages/cadastro/components/form/form.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CadastroComponent } from './feature/pages/cadastro/cadastro.component';
     AgentesComponent,
     FooterComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
