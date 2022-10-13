@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.cadastro-right-content-paragrafo{
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    height: 80px;
+    width: 300px;
+}
+.cadastro-div-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 18px;
+    background-color: white;
+    width: 298px;
+    height: 500px;
+    max-width: 300px;
+    max-height: 511px;
+   
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+}
+.cadastro-form{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 300px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: black;
+    font-size: 50%;
+    padding-top: 5px;
+}
+.cadastro-input{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    border: 1.9px solid #BDBDBD;
+    box-shadow: #333333;
+    border-radius: 2px;
+    width: 268px;
+    height: 42px;
+    padding-inline: 5%;
+    padding-left: 2%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    outline: none;
+}
+.cadastro-ancora-login{
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: black;
+    font-size: 70%;
+    cursor: pointer;
+}
+.cadastro-button{
+    width: 296px;
+    height: 44px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4655;
+    font-family: 'Montserrat';
+    font-weight: 550;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.cadastro-label{
+    font-family: 'Montserrat';
+    font-weight: 550;
+    color: black;
+    font-size: 8px;
+    width: 90px;
+    height: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.cadastro-button:hover{
+    background:#ff0015;
+}
+span#cadastro-confirmar-senha{
+    font-family: 'Montserrat';
+    font-weight: 550;
+    color: #C72C2C;
+    font-size: 10px;
+    width: 200px;
+    height: 10px;
+}
