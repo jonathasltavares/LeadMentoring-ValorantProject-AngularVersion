@@ -11,8 +11,16 @@ export class AutenticationService {
     },
   ]
   constructor() { }
-  getUsers(users:[]){
-    return 
+  getUsers(valueEmail: string, valueSenha: string){
+    var user
+    const usersString = sessionStorage.getItem('users');
+    if(!(typeof usersString === 'string')){
+      
+    }else{
+      let users:[{email:string,senha:string}] = JSON.parse(usersString)  
+      user = users.filter(users => (users.email==valueEmail && users.senha==valueSenha ))  
+    }
+    return user
   }
   setUsers(user:{email: string, senha:string}){
     this.users.push(user)

@@ -23,6 +23,7 @@ export class FormComponent implements OnInit {
     let user = {email: valueEmail.value, senha: valueSenha.value}
     this.autenticationService.setUsers(user)
     this.senhasIguais = true
+    window.location.href = '/login'
     }
   }
 }

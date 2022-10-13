@@ -1,0 +1,12 @@
+<div class="login-box">
+    <p class="login-right-content-mensagem">Bem-vindo de volta!</p>
+    <form class="login-forms">
+        <label class="login-label" for="e-mail">E-MAIL</label>
+        <input class="login-input" type="e-mail" name="usuario" id="login-email" placeholder="@gmail.com" required/><br>
+        <label class="login-label" for="password">SENHA</label>
+        <input class="login-input" type="password" name="senha" id="login-senha" required/><br>
+        <span *ngIf="userInvalido == true" id="confirmar-usuario-senha-login">Email e/ou Senha inválido(s)</span>
+        <button class="login-button" type="button" (click)="logar($event)">Entrar</button>
+    </form>
+    <a class="login-ancora-cadastro" href="cadastro">Criar conta</a>
+</div>
