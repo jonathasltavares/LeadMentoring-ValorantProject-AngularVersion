@@ -1,0 +1,25 @@
+<header class="header-cabecalho">
+    <div class="header-cabecalho-left-content">
+        <img class="header-cabecalho-logo-riot" src="/assets/images/header-logo-riot.svg">
+        <div class="header-cabecalho-linha-vertical"></div>
+        <img class="header-cabecalho-logo-valorant" src="/assets/images/header-logo-valorant.svg">
+    </div>
+    
+    <nav class="header-cabecalho-menu">
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('home')">Jogue agora</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('noticias')" target="_self">Notícias</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('sobreojogo')">Sobre o jogo</a>
+        <a class="header-cabecalho-menu-item" (click)="scrollTo('agentes')">Agentes</a>
+    </nav>
+    <div class="header-cabecalho-right">
+        <div class="header-cabecalho-right-acessibilidadeBar">
+            <button class="header-botao-acessibilidade"><img class="header-botao-acessibilidade-img" src="assets/images/header-botao-acessibilidadeA-.svg" (click)="decremetFontSize"></button>
+            <button class="header-botao-acessibilidade"><img class="header-botao-acessibilidade-img" src="assets/images/header-botao-acessibilidadeA.svg" (click)="resetFontSize"></button>
+            <button class="header-botao-acessibilidade"><img class="header-botao-acessibilidade-img" src="assets/images/header-botao-acessibilidadeA+.svg"(click)="incremetFontSize"></button>
+        </div>
+        <div class="header-cabecalho-right-logout" (click)="logout()">
+        Sair<img class="header-cabecalho-right-logout-img" src="/assets/images/header-logout.svg"></div>
+    </div>
+    <script src="\scripts\header.js"></script>
+</header>
+

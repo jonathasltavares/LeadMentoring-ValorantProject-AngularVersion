@@ -1,0 +1,14 @@
+<div class="cadastro-div-form">
+    <p class="cadastro-right-content-paragrafo">Falta pouco!<br>só precisamos de algumas informações antes</p>
+    <form class="cadastro-form">
+        <label class="cadastro-label" for="email">E-MAIL</label>
+        <input class="cadastro-input" type="email" name="email" id="cadastro-email" #cadastroEmail required/>
+        <label class="cadastro-label" for="senha">SENHA</label>
+        <input class="cadastro-input" type="password" name="senha" id="cadastro-senha" #cadastroSenha required/>
+        <label class="cadastro-label" for="confirmarsenha">CONFIRMAR SENHA</label>
+        <input [ngStyle]="{ 'border-color': senhasIguais ==false ? '#C72C2C' : '#BDBDBD' }" class="cadastro-input" type="password" name="confirsenha" id="cadastro-confirmar-senha" #cadastroConfirSenha required/>
+        <span *ngIf="senhasIguais==false" id="cadastro-confirmar-senha" #msgConfirmarSenha>As senhas informadas não coincidem</span>
+        <button type="button" (click)= "cadastrarUsuario($event)" class="cadastro-button">Enviar</button>
+    </form>
+    <a class="cadastro-ancora-login" href="/login">Já possui conta?</a>
+</div>
