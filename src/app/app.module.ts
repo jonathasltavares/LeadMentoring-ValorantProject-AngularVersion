@@ -13,6 +13,7 @@ import { FooterComponent } from './feature/components/footer/footer.component';
 import { LoginComponent } from './feature/pages/login/login.component';
 import { CadastroComponent } from './feature/pages/cadastro/cadastro.component';
 import { FormComponent } from './feature/pages/cadastro/components/form/form.component';
+import { FormLoginComponent } from './feature/pages/login/components/form-login/form-login.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { FormComponent } from './feature/pages/cadastro/components/form/form.com
     LoginComponent,
     CadastroComponent,
     FormComponent,
+    FormLoginComponent,
   ],
   imports: [
     BrowserModule,
