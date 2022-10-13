@@ -5,7 +5,7 @@ import { LandingpageComponent } from './feature/pages/landingpage/landingpage.co
 import { LoginComponent } from './feature/pages/login/login.component';
 
 const routes: Routes = [
-  {path: '', component: LandingpageComponent},
+  {path: '', component: CadastroComponent},
   {path: 'login', component: LoginComponent},
   {path:'cadastro',component: CadastroComponent},
   {path:'index', component: LandingpageComponent}
