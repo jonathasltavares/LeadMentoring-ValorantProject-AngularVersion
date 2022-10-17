@@ -18,7 +18,7 @@ export class AcessibilitybarComponent implements OnInit {
       this.font_size -= 2
     }else if(id==='a+' && this.font_size<22){
       this.font_size += 2
-    }else{
+    }else if(id==='a'){
       this.font_size = 16
     }
 
