@@ -6,60 +6,60 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-![Logo of the project](public/README/valorantLogo.png)
+![Logo of the project](/src/assets/README/valorantLogo.png)
 
 
-## [LEAD MENTORING] - Valorant Project
-Esse projeto foi proposto pelo Christian Castro, mentor do programa Lead Mentoring, o qual estou participando, da Dell Lead, e tem como objetivo a criação de uma landing page baseada no jogo Valorant da Riot Games.
+## [LEAD MENTORING] - Valorant Project - Angular version
+Esse projeto foi proposto pelo Christian Castro, mentor do programa Lead Mentoring, o qual estou participando, da Dell Lead, e tem como objetivo a criação de uma landing page baseada no jogo Valorant da Riot Games.  
+  
+  
+Nessa segunda etapa do desafio desafio, passamos o que tinhamos feito na <a href="https://leadmentoringvalorantproject.vercel.app" target="_blank" rel="noopener noreferrer">primeira parte do projeto</a>  para o Angular.
 
 
 ## Tecnologias 
 
 Tecnologias usadas nesse projeto:
 
-* HTML5
-* CSS3
-* NunJucks
-* JavaScript 
+* Angular 
 
 ## Páginas  
 
 ### 1 - Cadastro
 
-![Homepage image](public/README/cadastro.png)
+![Homepage image](/src/assets/README/cadastro.png)
 
 ### 2 - Login
 
-![Homepage image](public/README/login.png)
+![Homepage image](/src/assets/README/login.png)
 
 ### 3 - Home
 
-![Homepage image](public/README/home.png)
+![Homepage image](/src/assets/README/home.png)
 
 
 ### 4 - Notícias
 
-![Login](public/README/noticias.png)
+![Login](/src/assets/README/noticias.png)
 
 
 ### 5 - Agentes
 
-![Sign up](public/README/agentes.png)
+![Sign up](/src/assets/README/agentes.png)
 
 
 ### 6 - Sobre o jogo
 
-![Dashboard](public/README/sobre.png)
+![Dashboard](/src/assets/README/sobre.png)
 
 
 ## Links
 
-  <a href="https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project">Repository</a><br>
-  <a href="https://valorantprojectleadmentoring.herokuapp.com">Deploy</a>
+  <a href="https://github.com/jonathasltavares/LeadMentoring-ValorantProject-AngularVersion" target="_blank" rel="noopener noreferrer">Repository</a><br>
+  <a href="https://leadmentoringvalorantproject.vercel.app" target="_blank" rel="noopener noreferrer">Deploy</a>
   
 
 ## Authors
 
-  <a href="https://github.com/jonathasltavares">Jonathas Luan</a>  
-  <a href="https://github.com/IsabeleOliveira">Isabele Oliveira</a>  
-  <a href="https://github.com/CCastro01">Christian Castro</a>  
+  <a href="https://github.com/jonathasltavares" target="_blank" rel="noopener noreferrer">Jonathas Luan</a>  
+  <a href="https://github.com/IsabeleOliveira" target="_blank" rel="noopener noreferrer">Isabele Oliveira</a>  
+  <a href="https://github.com/CCastro01" target="_blank" rel="noopener noreferrer">Christian Castro</a>  
