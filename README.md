@@ -13,7 +13,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Esse projeto foi proposto pelo Christian Castro, mentor do programa Lead Mentoring, o qual estou participando, da Dell Lead, e tem como objetivo a criação de uma landing page baseada no jogo Valorant da Riot Games.  
   
   
-Nessa segunda etapa do desafio desafio, passamos o que tinhamos feito na <a href=(https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project/tree/develop" target="_blank">primeira parte do projeto</a>  para o Angular.
+Nessa segunda etapa do desafio desafio, passamos o que tinhamos feito na <a href="https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project/tree/develop" target="_blank">primeira parte do projeto</a>  para o Angular.
 
 
 ## Tecnologias 
