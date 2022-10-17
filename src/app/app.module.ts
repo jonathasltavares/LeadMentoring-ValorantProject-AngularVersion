@@ -14,6 +14,7 @@ import { LoginComponent } from './feature/pages/login/login.component';
 import { CadastroComponent } from './feature/pages/cadastro/cadastro.component';
 import { FormComponent } from './feature/pages/cadastro/components/form/form.component';
 import { FormLoginComponent } from './feature/pages/login/components/form-login/form-login.component';
+import { AcessibilitybarComponent } from './feature/components/acessibilitybar/acessibilitybar.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { FormLoginComponent } from './feature/pages/login/components/form-login/
     CadastroComponent,
     FormComponent,
     FormLoginComponent,
+    AcessibilitybarComponent,
   ],
   imports: [
     BrowserModule,
