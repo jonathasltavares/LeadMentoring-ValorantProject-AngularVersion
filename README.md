@@ -6,22 +6,60 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+![Logo of the project](/src/assets/README/valorantLogo.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## [LEAD MENTORING] - Valorant Project - Angular version
+Esse projeto foi proposto pelo Christian Castro, mentor do programa Lead Mentoring, o qual estou participando, da Dell Lead, e tem como objetivo a criação de uma landing page baseada no jogo Valorant da Riot Games.  
+  
+  
+Nessa segunda etapa do desafio desafio, passamos o que tinhamos feito na <a href="https://leadmentoringvalorantproject.vercel.app" target="_blank" rel="noopener noreferrer">primeira parte do projeto</a>  para o Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Tecnologias 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Tecnologias usadas nesse projeto:
 
-## Running end-to-end tests
+* Angular 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Páginas  
 
-## Further help
+### 1 - Cadastro
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Homepage image](/src/assets/README/cadastro.png)
+
+### 2 - Login
+
+![Homepage image](/src/assets/README/login.png)
+
+### 3 - Home
+
+![Homepage image](/src/assets/README/home.png)
+
+
+### 4 - Notícias
+
+![Login](/src/assets/README/noticias.png)
+
+
+### 5 - Agentes
+
+![Sign up](/src/assets/README/agentes.png)
+
+
+### 6 - Sobre o jogo
+
+![Dashboard](/src/assets/README/sobre.png)
+
+
+## Links
+
+  <a href="https://github.com/jonathasltavares/LeadMentoring-ValorantProject-AngularVersion" target="_blank" rel="noopener noreferrer">Repository</a><br>
+  <a href="https://leadmentoringvalorantproject.vercel.app" target="_blank" rel="noopener noreferrer">Deploy</a>
+  
+
+## Authors
+
+  <a href="https://github.com/jonathasltavares" target="_blank" rel="noopener noreferrer">Jonathas Luan</a>  
+  <a href="https://github.com/IsabeleOliveira" target="_blank" rel="noopener noreferrer">Isabele Oliveira</a>  
+  <a href="https://github.com/CCastro01" target="_blank" rel="noopener noreferrer">Christian Castro</a>  
