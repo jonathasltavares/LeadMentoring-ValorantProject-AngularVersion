@@ -1,0 +1,23 @@
+
+.header-cabecalho-right-acessibilidadeBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15%;
+    width: 140px;
+}
+.header-botao-acessibilidade{
+    background-color: #111111;
+    border: none;
+    width: auto;
+    height: 120%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header-botao-acessibilidade:hover{
+    background-color: #414141;
+}
+.header-botao-acessibilidade-img{
+    height: 100%;
+}
